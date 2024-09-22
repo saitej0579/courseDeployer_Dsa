@@ -96,11 +96,20 @@ body{
     width: 100vw;
     height: 70px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     border-bottom: 2px solid rgb(85, 85, 97);
 }
+
+.webd{
+    color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
 .Home{
     color: white;
     font-family:'Times New Roman', Times, serif;
@@ -121,6 +130,10 @@ body{
 @media (max-width: 600px){
     .navBar{
         margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
     .linkedin{
         text-align: center;
@@ -128,6 +141,13 @@ body{
         font-size: 1rem;
         text-decoration: none;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .webd{
+        color: white;
+        text-decoration: none;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1rem;
+        letter-spacing: 2px;
     }
     .active{
         left: 0px;
