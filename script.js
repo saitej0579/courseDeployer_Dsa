@@ -14,7 +14,7 @@ window.addEventListener("DOMContentLoaded", function() {
 });
 
 function change() {
-    if (userId.value === "0579" && userPass.value === "tej") { // Check if credentials match
+    if (userId.value === "0579" &&( userPass.value === "tej" ||  userPass.value === "Tej")) { // Check if credentials match
         section.classList.remove("active"); // Hide login section
         contentSection.classList.add("active"); // Show content section
         sessionStorage.setItem("hiddenSection", "true"); // Save the hidden state in sessionStorage
