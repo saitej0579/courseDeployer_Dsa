@@ -84,13 +84,24 @@ body{
     height: 100%;
 }
 
-.linkedin{
-    text-align: center;
+img{
+    height: 60px;
+    width: 140px;
+}
+
+.future{
     color: white;
     font-size: 2rem;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    align-items: start;
+    font-size: 16px;
+    margin-left: 2rem;
 }
+
 
 .navBar{
     margin-bottom: 50px;
