@@ -57,6 +57,7 @@ body{
 }
 [data-button]:hover{
     scale:1.01;
+    cursor: pointer;
 }
 [data-button]{
     height: 30px;
